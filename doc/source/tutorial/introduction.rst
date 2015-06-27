@@ -60,9 +60,9 @@ Commands for operating a database accept arguments as follows::
 
  Form_2: COMMAND --NAME_1 VALUE_1 --NAME_2 VALUE_2 ..
 
-In the first form, arguments must be passed in order. This kind of arguments are called positional arguments because the position of each argument determines its meaning.
+In the Form_1, arguments must be passed in order. This kind of arguments are called positional arguments because the position of each argument determines its meaning.
 
-In the second form, you can specify a parameter name with its value. So, the order of arguments is not defined. This kind of arguments are known as named parameters or keyword arguments.
+In the Form_2, you can specify a parameter name with its value. So, the order of arguments is not defined. This kind of arguments are known as named parameters or keyword arguments.
 
 If you want to specify a value which contains white-spaces or special characters, such as quotes and parentheses, please enclose the value with single-quotes or double-quotes.
 
